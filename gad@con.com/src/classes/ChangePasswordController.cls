@@ -10,6 +10,8 @@ public with sharing class ChangePasswordController {
         return Site.changePassword(newPassword, verifyNewPassword, oldpassword);    
     }     
     
+    
+    //Comment 2
    	public ChangePasswordController() {}
     
    	@IsTest(SeeAllData=true) public static void testChangePasswordController() {
